@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;600;700&family=Roboto:wght@400;700&display=swap');
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.container {
+    width: 1440px;
+    /*height: 1024px;*/
+    background-color: #000;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+header {
+    padding: 40px;
+    height: 100px;
+}
+
+header>div {
+    width: 200px;
+}
+
+header>:nth-child(2) {
+    width: 960px;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.3em;
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu a {
+    padding: 0 15px;
+}
+
+.menu a.active,
+.menu a:hover {
+    color: #42FF00;
+}
+
+.body-left {
+    width: 690px;
+    height: 974px;
+}
+
+.body-right {
+    width: 750px;
+    height: 974px;
+    background-image: url('../assets/imgs/body.png');
+    background-size: cover;
+    background-position: top center;
+}
+
+.body-left .text {
+    width: 456px;
+    margin: 200px auto 50px;
+}
+
+.body-left h1 {
+    font-size: 70px;
+    letter-spacing: 0.11em;
+}
+
+.body-left p {
+    font-size: 24px;
+    letter-spacing: 0.06em;
+    font-weight: 200;
+}
+
+.btn-arrow {
+    background-image: url('../assets/icons/arrow.png');
+    width: 60px;
+    height: 60px;
+    background-position: center;
+    border-radius: 60px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.btn-arrow:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-net {
+    margin-top: 100px;
+}
+
+.social-net i {
+    width: 40px;
+    height: 40px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+.facebook {
+    background-image: url('../assets/icons/facebook.png');
+}
+
+.instagram {
+    background-image: url('../assets/icons/instagram.png');
+}
+
+.twitter {
+    background-image: url('../assets/icons/twitter.png');
+}
+
+.youtube {
+    background-image: url('../assets/icons/youtube.png');
+}
+
+.more-icons {
+    margin: 760px 0 0 60px;
+}
+
+.more-icons i {
+    width: 70px;
+    height: 70px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.map {
+    background-image: url('../assets/icons/map.png');
+}
+
+.boxes {
+    background-image: url('../assets/icons/boxes.png');
+}
+
+.layers {
+    background-image: url('../assets/icons/layers.png');
+}
+
+.heart {
+    background-image: url('../assets/icons/heart.png');
+}
+
+.green-container {
+    width: 700px;
+    height: 76px;
+    background-color: rgba(66, 255, 0, 0.2);
+    margin-top: 270px;
+    float: right;
+}
+
+i {
+    transition: all .2s ease-in-out;
+}
+
+i:hover {
+    transform: scale(1.3);
+}
