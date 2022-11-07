@@ -28,7 +28,6 @@ a {
     align-items: center;
 }
 
-/* screens-size */
 @media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
@@ -209,9 +208,25 @@ i:hover {
     transform: scale(1.3);
 }
 
-/* Queris */
+/* queris */
 
 /* portatil */
+
+@media screen and (max-width: 1000px) {
+    .body-left {
+        width: 90%;
+    }
+
+    .body-left .text {
+        margin: 0 auto 50px;
+    }
+
+    .body-right {
+        width: 90%;
+    }
+}
+
+/* netbook */
 
 @media screen and (max-width: 1200px) {
     .body-left h1 {
@@ -239,7 +254,9 @@ i:hover {
         height: 60px;
     }
 }
-/* netbook */
+
+/* tablet */
+
 @media screen and (max-width: 991px) {
     .body-left h1 {
         font-size: 50px;
@@ -265,7 +282,9 @@ i:hover {
         height: 50px;
     }
 }
-/* tablet */
+
+/* mini movil */
+
 @media screen and (max-width: 767px) {
     .body-left h1 {
         font-size: 40px;
@@ -293,6 +312,7 @@ i:hover {
 }
 
 /* movil */
+
 @media screen and (max-width: 575px) {
     .body-left h1 {
         font-size: 30px;
@@ -318,4 +338,3 @@ i:hover {
         height: 30px;
     }
 }
-
