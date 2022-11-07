@@ -28,6 +28,7 @@ a {
     align-items: center;
 }
 
+/* screens-size */
 @media screen and (max-width: 1000px) {
     .flex {
         flex-direction: column;
@@ -210,7 +211,7 @@ i:hover {
 
 /* Queris */
 
-
+/* portatil */
 
 @media screen and (max-width: 1200px) {
     .body-left h1 {
@@ -238,7 +239,7 @@ i:hover {
         height: 60px;
     }
 }
-
+/* netbook */
 @media screen and (max-width: 991px) {
     .body-left h1 {
         font-size: 50px;
@@ -264,7 +265,7 @@ i:hover {
         height: 50px;
     }
 }
-
+/* tablet */
 @media screen and (max-width: 767px) {
     .body-left h1 {
         font-size: 40px;
@@ -291,6 +292,7 @@ i:hover {
     }
 }
 
+/* movil */
 @media screen and (max-width: 575px) {
     .body-left h1 {
         font-size: 30px;
@@ -317,28 +319,3 @@ i:hover {
     }
 }
 
-@media screen and (max-width: 991px) {
-    .body-left h1 {
-        font-size: 50px;
-    }
-
-    .body-left p {
-        font-size: 20px;
-    }
-
-    .btn-arrow {
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-    }
-
-    .social-net i {
-        width: 36px;
-        height: 36px;
-    }
-
-    .more-icons i {
-        width: 50px;
-        height: 50px;
-    }
-}
