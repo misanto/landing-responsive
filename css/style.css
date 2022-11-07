@@ -316,3 +316,29 @@ i:hover {
         height: 30px;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .body-left h1 {
+        font-size: 50px;
+    }
+
+    .body-left p {
+        font-size: 20px;
+    }
+
+    .btn-arrow {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+    }
+
+    .social-net i {
+        width: 36px;
+        height: 36px;
+    }
+
+    .more-icons i {
+        width: 50px;
+        height: 50px;
+    }
+}
