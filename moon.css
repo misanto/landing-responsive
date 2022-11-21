@@ -34,7 +34,7 @@ a {
 }
 
 body {
-  background-image: url(../img/moon.jpg);
+  background-image: url(assets/imgs/moon.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
